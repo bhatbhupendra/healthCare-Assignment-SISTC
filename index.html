@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Client</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="logo.png" alt="Health Care">
+        <a href="#home">Home</a>
+        <a href="#about">BMR</a>
+        <a href="#services">Appoinment</a>
+    </nav>
+    <section>
+        <div id="parallax_1">
+            <div class="wrapper">
+                <h2>Good Health Is The Root Of All Heppiness</h2><br>
+                <span>Use our BMI calculator to check your health status and also make appointment from form
+                    below.</span>
+            </div>
+        </div>
+        </div>
+        <div id="secondDiv">
+            <div class="bmi-div-1">
+                <h2 style="margin: 0px;">Body Mass Index(BMI) Calculator</h2><br>
+                <h3 style="margin: 0px;">Input Weight and Height</h2><br>
+                    <form id="bmiForm">
+                        <label for="weight">Weight in kg:- </label>
+                        <input type="number" id="weight" name="weight" required><br><br><br>
+                        <label for="height">Height in cm:- </label>
+                        <input type="number" id="height" name="height" required><br><br><br>
+                        <button class="button" type="submit" id="bmiForm" value="submit"
+                            name="submit">Calculate</button>
+                    </form>
+                    <span id="reasultBMI">Your BMI is: .......</span>
+            </div>
+            <div class="bmi-div-2">
+                <img style="height: 500px;" src="AdultBMI.png" alt="Adult BMI">
+            </div>
+        </div>
+        <div class="thirdDiv">
+            <h1 style="margin: 0px;color: white;">Doctor Appointment Form</h1><br>
+            <h3 style="margin: 0px;">Fill the form to make a appoinment</h2><br>
+                <form action="">
+                    <label style="padding-right: 100px;" for="name">Name:- </label>
+                    <input type="text" id="name" name="name" required placeholder="first name"><br><br><br>
+                    <label style="padding-right: 70px;" for="address">Address:- </label>
+                    <input type="text" id="address" name="address" placeholder="address" required><br><br><br>
+                    <label style="padding-right: 90px;" for="phone">Phone:- </label>
+                    <input type="text" id="phone" name="phone" placeholder="phone" required><br><br><br>
+                    <label style="padding-right: 35px;" for="issue">Health issue:- </label>
+                    <input type="text" id="issue" name="issue" placeholder="issue" required><br><br><br>
+                    <label style="padding-right: 10px;" for="date">Appoinment Date</label>
+                    <input type="text" id="date" name="date" placeholder="date" required><br><br><br>
+                    <button class="button" type="submit" id="bmiForm" value="submit" name="submit">Submit Form</button>
+                </form>
+        </div>
+    </section>
+    <footer>
+        <!-- footer info section -->
+        <div class="footer">
+            <div class="row">
+                <div class="div_img" style="display: flex; flex-direction: column;" id="first__col">
+
+                    <img src="logo.png" alt="">
+
+                </div>
+
+                <div class="" id="second__col">
+                    <div style="display: flex; flex-direction: column;">
+                        <h2 style="margin: 0px;">Health Care</h2><br>
+                        <ul>
+                            <li>Sydney, Australia</li>
+                            <li>Email:- health-care@outlook.com</li>
+                            <li>Phone:- +90000000000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="" id="third__col">
+                    <div style="display: flex; flex-direction: column;">
+                        <h2 style="margin: 0px;">Manger</h2><br>
+                        <ul>
+                            <li>Dr. Sushil Dhami</li>
+                            <li>Email:- sushildhami@gmail.com</li>
+                            <li>Phone:- +90000000006</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer info section -->
+
+
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
