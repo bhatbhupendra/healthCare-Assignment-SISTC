@@ -176,10 +176,17 @@ footer{
 }
 
 
-/*li align left to align center*/
-@media screen and (max-width: 753px) {
-  footer{
-    text-align: center;
+@media only screen and (max-width: 600px) {
+  div {
+    flex-direction: column !important;
+      width: auto !important;
+      height: auto !important;
+  }
+  .adultBMI{
+    height: 400px !important;
+  }
+  .logo{
+    display: block;
   }
 }
 
