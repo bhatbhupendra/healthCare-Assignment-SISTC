@@ -50,8 +50,8 @@ div{
 	justify-content: center;
 	font-weight: bold;
 	width: 100%;
-	height: 100vh;
 }
+
 
 .wrapper h2 {
 	font-size: 40px;
@@ -67,6 +67,7 @@ div{
     background-size: cover; 
     display: flex;
     justify-content: start;
+	height: 100vh;
 }
 
 #parallax_1 .wrapper{
@@ -87,6 +88,7 @@ div{
 
 #secondDiv {
 	background:#f0f0f0;
+  padding: 30px;
 }
 
 /* form code goes heare */
@@ -153,8 +155,9 @@ footer{
 
 }
 
+
 .footer{
-    height: 30vh !important;
+    height: 30vh;
 }
 
 #first__col,#second__col,#third__col{
@@ -188,13 +191,11 @@ footer{
   .logo{
     display: block;
   }
+  .footer{
+    height: 60vh !important;
+  }
+  #parallax_1{
+    height: 80vh !important;
+  }
+
 }
-
-
-
-
-
-
-
-
-

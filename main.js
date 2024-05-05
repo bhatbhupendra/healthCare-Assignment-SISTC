@@ -19,3 +19,7 @@ document.getElementById("bmiForm").onsubmit = function () {
 
   return false; // Prevent form submission
 };
+
+function submitAppoinmentForm() {
+  alert("The Appoinment is created !!");
+}
